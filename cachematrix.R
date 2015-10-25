@@ -3,6 +3,7 @@
 ## its matrix inverse,
 ## the other retrieves the cached inverse if computed already
 ## or computes the inverse if not.
+## Code is based on the given Example in Programming Assignment 2.
 
 ## Function that creates a special matrix object 
 ## that can cache its inverse
