@@ -1,4 +1,4 @@
-## Functions that enable the caching of a matrix inverse
+## Functions that enable the caching of a matrix inverse:
 ## One function creates a special matrix object that can cache 
 ## its matrix inverse,
 ## the other retrieves the cached inverse if computed already
