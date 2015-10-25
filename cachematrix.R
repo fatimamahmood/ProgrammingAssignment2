@@ -1,4 +1,4 @@
-## Functions that enable the caching of a matrix inverse:
+## Functions that enable the caching of a matrix inverse
 ## One function creates a special matrix object that can cache 
 ## its matrix inverse,
 ## the other retrieves the cached inverse if computed already
@@ -29,6 +29,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Function that retrieves the cached matrix inverse 
 ## if computed already, or computes it if not
+## (assuming the supplied matrix is invertible)
 
 cacheSolve <- function(x, ...) {
     ## This function will return a matrix that is the inverse of 'x'
