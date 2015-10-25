@@ -5,8 +5,8 @@
 ## or computes the inverse if not.
 ## Code is based on the given Example in Programming Assignment 2.
 
-## Function that creates a special matrix object 
-## that can cache its inverse
+## Function that takes in a matrix and creates
+## a special matrix object that can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
@@ -29,8 +29,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Function that retrieves the cached matrix inverse 
-## if computed already, or computes it if not
+## Function that takes in the special matrix object and
+## retrieves the cached matrix inverse if computed already, 
+## or computes it if not
 ## (assuming the supplied matrix is invertible)
 
 cacheSolve <- function(x, ...) {
